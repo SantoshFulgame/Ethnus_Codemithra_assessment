@@ -1,81 +1,94 @@
-MERN Stack Coding Challenge
-This project is part of a coding challenge where the task is to build a MERN (MongoDB, Express.js, React.js, Node.js) stack application. The challenge involves both backend and frontend development tasks.
+# MERN Stack Coding Challenge
 
-Backend Task
-Data Source
-THIRD PARTY API URL: https://s3.amazonaws.com/roxiler.com/product_transaction.json
-REQUEST METHOD: GET
-RESPONSE FORMAT: JSON
-APIs Implemented
-Initialize Database API
+This project is part of a coding challenge involving the development of a MERN (MongoDB, Express.js, React.js, Node.js) stack application. It includes both backend and frontend tasks.
 
-Endpoint: /api/init-database
-Function: Fetches JSON from the third-party API and initializes the MongoDB database with seed data.
-List Transactions API
+## Backend Task
 
-Endpoint: /api/transactions
-Parameters: month, search_q, page
-Functionality: Supports search and pagination on product transactions based on title/description/price.
-Statistics API
+### Data Source
 
-Endpoint: /api/statistics
-Parameters: month
-Functionality:
-Total sale amount of selected month.
-Total number of sold items of selected month.
-Total number of not sold items of selected month.
-Bar Chart API
+- **THIRD PARTY API URL**: [https://s3.amazonaws.com/roxiler.com/product_transaction.json](https://s3.amazonaws.com/roxiler.com/product_transaction.json)
+- **REQUEST METHOD**: GET
+- **RESPONSE FORMAT**: JSON
 
-Endpoint: /api/bar-chart
-Parameters: month
-Functionality: Returns price range and number of items in each range for the selected month.
-Pie Chart API
+### APIs Implemented
 
-Endpoint: /api/pie-chart
-Parameters: month
-Functionality: Finds unique categories and number of items in each category for the selected month.
-Combined Data API
+1. **Initialize Database API**
+   - Endpoint: `/api/init-database`
+   - Function: Fetches JSON from the third-party API and initializes the MongoDB database with seed data.
 
-Endpoint: /api/combined-data
-Functionality: Fetches data from all above APIs, combines the responses, and sends a final JSON response.
-Frontend Task
+2. **List Transactions API**
+   - Endpoint: `/api/transactions`
+   - Parameters: `month`, `search_q`, `page`
+   - Functionality: Supports search and pagination on product transactions based on title/description/price.
+
+3. **Statistics API**
+   - Endpoint: `/api/statistics`
+   - Parameters: `month`
+   - Functionality:
+     - Total sale amount of selected month.
+     - Total number of sold items of selected month.
+     - Total number of not sold items of selected month.
+
+4. **Bar Chart API**
+   - Endpoint: `/api/bar-chart`
+   - Parameters: `month`
+   - Functionality: Returns price range and number of items in each range for the selected month.
+
+5. **Pie Chart API**
+   - Endpoint: `/api/pie-chart`
+   - Parameters: `month`
+   - Functionality: Finds unique categories and number of items in each category for the selected month.
+
+6. **Combined Data API**
+   - Endpoint: `/api/combined-data`
+   - Functionality: Fetches data from all above APIs, combines the responses, and sends a final JSON response.
+
+## Frontend Task
+
 The frontend consumes the APIs created on the backend to display the following components on a single page:
 
-Transactions Table
+### Transactions Table
 
-Displays transactions based on selected month and search criteria.
-Pagination functionality (Next/Previous).
-Transactions Statistics
+- Displays transactions based on selected month and search criteria.
+- Pagination functionality (Next/Previous).
 
-Displays total amount of sale, total sold items, and total not sold items for the selected month.
-Transactions Bar Chart
+### Transactions Statistics
 
-Displays price range and number of items in each range for the selected month.
-Screenshots
+- Displays total amount of sale, total sold items, and total not sold items for the selected month.
+
+### Transactions Bar Chart
+
+- Displays price range and number of items in each range for the selected month.
+
+## Screenshots
+
 Include screenshots or mockups of your frontend components here:
 
-Transactions Table
+### Transactions Table
+![Transactions Table](images/transactions_table.png)
 
-Transactions Statistics
+### Transactions Statistics
+![Transactions Statistics](images/transactions_statistics.png)
 
-Transactions Bar Chart
+### Transactions Bar Chart
+![Transactions Bar Chart](images/transactions_bar_chart.png)
 
-Getting Started
-Prerequisites
-Node.js
-MongoDB Atlas account (or local MongoDB installation)
-Git
-Installation
-Clone the repository:
+## Getting Started
 
-bash
-Copy code
-git clone https://github.com/your_username/your_repository.git
-cd your_repository
-Install dependencies:
+### Prerequisites
 
-bash
-Copy code
+- Node.js
+- MongoDB Atlas account (or local MongoDB installation)
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your_username/your_repository.git
+   cd your_repository
+
 # Install backend dependencies
 cd backend
 npm install
