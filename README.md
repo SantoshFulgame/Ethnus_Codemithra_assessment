@@ -71,7 +71,7 @@ Include screenshots or mockups of your frontend components here:
 ![Transactions Statistics](images/transactions_statistics.png)
 
 ### Transactions Bar Chart
-![Transactions Bar Chart](images/transactions_bar_chart.png)
+![Transactions Bar Chart](https://github.com/SantoshFulgame/Ethnus_Codemithra_assessment/blob/main/Transactions%20Bar%20Chart.png)
 
 ## Getting Started
 
