@@ -65,10 +65,10 @@ The frontend consumes the APIs created on the backend to display the following c
 Include screenshots or mockups of your frontend components here:
 
 ### Transactions Table
-![Transactions Table](images/transactions_table.png)
+![Transactions Table](https://github.com/SantoshFulgame/Ethnus_Codemithra_assessment/blob/main/Transactions%20Table.png)
 
 ### Transactions Statistics
-![Transactions Statistics](images/transactions_statistics.png)
+![Transactions Statistics](https://github.com/SantoshFulgame/Ethnus_Codemithra_assessment/blob/main/Transactions%20Statistics.png)
 
 ### Transactions Bar Chart
 ![Transactions Bar Chart](https://github.com/SantoshFulgame/Ethnus_Codemithra_assessment/blob/main/Transactions%20Bar%20Chart.png)
